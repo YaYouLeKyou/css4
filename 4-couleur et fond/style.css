@@ -1,0 +1,74 @@
+/*
+voir site w3.org pour tableau couleur
+
+FFFFFF blanc
+000000 noir
+
+background ( voir body )
+left
+right
+top
+bottom
+bottom left...
+
+background-repeat
+reapet ( par defaut )
+no repeat
+repeat-x
+repeat-y
+space ( gere les éspaces blanc )
+round ( mosaique, mieux que repeat, image redimensionné )
+
+background size
+cover ( tout l' éspace l' image s' adapte, le plus utilisé )
+contain ( image affiché a 100% tout le temps )
+en px px
+en %
+
+background-origine
+content-box ( a l' interieur du contenu )
+border-box
+padding-box ( a l'exterieur du contenu )
+
+background clip
+meme chose que background-origine
+
+background-attachement
+local
+scroll ( le fond défile avec )
+fixed ( le contenu bouge pas le fond )
+
+background
+
+exemple écrit en 1 ligne:
+background:color url() top center cover no-repeat scroll
+
+*/
+
+
+
+body
+{
+margin: auto;
+width: 1000px;
+background-color: grey;
+background-image: url(img/Thailand_Travel.jpg);
+background-position: top;
+background-repeat: no-repeat;
+background-size:cover ;
+background-attachment: scroll;
+}
+
+
+
+article
+
+{color: rgb(214, 27, 27);}
+
+h1
+
+{color: rgba(rgba(156, 35, 35, 0.562), rgb(18, 161, 18), rgb(36, 36, 163), alpha);}
+
+span
+
+{color: hsl(360, 100, 350);}
